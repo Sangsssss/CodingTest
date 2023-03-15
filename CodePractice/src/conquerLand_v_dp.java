@@ -31,7 +31,7 @@ public class conquerLand_v_dp {
         	max = Math.max(max, dp[dp.length-1][i]);
         }
         answer = max;
-       // System.out.println(answer);
+        System.out.println(answer);
         return answer;
     }
 
