@@ -40,10 +40,6 @@ public class skillDevelop {
         for(int i = 0; i<l.size(); i++) {
         	answer[i] = l.get(i);
         }
-        
-        for(int k : answer) {
-        	System.out.println(k);
-        }
         return answer;
     }
 }
