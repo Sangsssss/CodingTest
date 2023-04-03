@@ -16,6 +16,7 @@ public class hashCall {
 		 		map.put(phone_book[i], i);
 		        if(phone_book[i].length() < len){
 		        	len = phone_book[i].length();
+		        System.out.print("aad");
 		        }
 		    }
 		    for(int i = 0; i<phone_book.length; i++) {
