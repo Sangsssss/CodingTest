@@ -10,13 +10,14 @@ public class hashCall {
 	}
 	 public static boolean solution(String[] phone_book) {
 		    int len = 20;
+		    int shortlen = 0;
+		    int longlen = 10;
 		    boolean answer = true;
 		    HashMap<String, Integer> map = new HashMap<>();
 		 	for(int i = 0; i < phone_book.length; i++){
 		 		map.put(phone_book[i], i);
 		        if(phone_book[i].length() < len){
 		        	len = phone_book[i].length();
-		        System.out.print("aad");
 		        }
 		    }
 		    for(int i = 0; i<phone_book.length; i++) {
